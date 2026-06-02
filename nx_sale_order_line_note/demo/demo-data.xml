@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Demo Sale Order with internal notes on lines -->
+    <record id="demo_sale_order_1" model="sale.order">
+        <field name="partner_id" ref="base.res_partner_2"/>
+        <field name="state">draft</field>
+    </record>
+
+    <record id="demo_sale_order_line_1" model="sale.order.line">
+        <field name="order_id" ref="demo_sale_order_1"/>
+        <field name="product_id" ref="product.product_product_6"/>
+        <field name="product_uom_qty">5</field>
+        <field name="price_unit">250.00</field>
+        <field name="internal_note">Negotiated 10% off — Q2 loyalty deal. Do not disclose to customer.</field>
+    </record>
+
+    <record id="demo_sale_order_line_2" model="sale.order.line">
+        <field name="order_id" ref="demo_sale_order_1"/>
+        <field name="product_id" ref="product.product_product_7"/>
+        <field name="product_uom_qty">2</field>
+        <field name="price_unit">180.00</field>
+        <field name="internal_note">Ship from warehouse B — customer requested special packaging.</field>
+    </record>
+
+    <record id="demo_sale_order_line_3" model="sale.order.line">
+        <field name="order_id" ref="demo_sale_order_1"/>
+        <field name="product_id" ref="product.product_product_9"/>
+        <field name="product_uom_qty">10</field>
+        <field name="price_unit">45.00</field>
+    </record>
+
+    <!-- Demo Purchase Order with internal notes on lines -->
+    <record id="demo_purchase_order_1" model="purchase.order">
+        <field name="partner_id" ref="base.res_partner_3"/>
+    </record>
+
+    <record id="demo_purchase_order_line_1" model="purchase.order.line">
+        <field name="order_id" ref="demo_purchase_order_1"/>
+        <field name="product_id" ref="product.product_product_6"/>
+        <field name="product_qty">20</field>
+        <field name="price_unit">200.00</field>
+        <field name="date_planned" eval="(DateTime.now()).strftime('%Y-%m-%d %H:%M:%S')"/>
+        <field name="internal_note">Verify quality cert before accepting delivery — last batch had issues.</field>
+    </record>
+
+    <record id="demo_purchase_order_line_2" model="purchase.order.line">
+        <field name="order_id" ref="demo_purchase_order_1"/>
+        <field name="product_id" ref="product.product_product_7"/>
+        <field name="product_qty">8</field>
+        <field name="price_unit">155.00</field>
+        <field name="date_planned" eval="(DateTime.now()).strftime('%Y-%m-%d %H:%M:%S')"/>
+        <field name="internal_note">Price includes import tax — check with accounting before approval.</field>
+    </record>
+
+</odoo>

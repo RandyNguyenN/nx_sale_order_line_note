@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Inherit sale.order form to add internal_note column in order_line list -->
+    <record id="view_sale_order_form_line_note" model="ir.ui.view">
+        <field name="name">sale.order.form.line.internal.note</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+
+            <!-- Add optional column after price_subtotal in the order_line list -->
+            <xpath expr="//field[@name='order_line']/list/field[@name='price_subtotal']" position="after">
+                <field name="internal_note"
+                       string="Internal Note"
+                       optional="show"
+                       widget="char"/>
+            </xpath>
+
+        </field>
+    </record>
+
+</odoo>
