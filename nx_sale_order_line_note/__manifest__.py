@@ -12,8 +12,9 @@ Sale Order Line Internal Note for Odoo 19 (Free / LGPL-3)
 - Toggleable column in the list view — show or hide without leaving the screen
 - Zero configuration — install and start writing notes immediately
     """,
-    'author': 'Randy Nguyen',
-    'website': '',
+    'author': 'SunMesa Labs',
+    'website': 'https://odoo.sunmesalabs.com',
+    'support': 'randy@sunmesalabs.com',
     'license': 'LGPL-3',
     'depends': ['sale_management', 'purchase'],
     'data': [
