@@ -8,434 +8,776 @@
 <body>
 
 <!-- ============================================================
-     SECTION 1 — BRAND HEADER
+     BRAND BAR
      ============================================================ -->
-<section class="sh_counter_section position-relative" style="margin-top:20px; margin-bottom:15px; padding:50px 0 0 0">
-  <div class="container">
-    <div style="width:100%; background-color:#f0f9ff; padding:30px; border-radius:35px">
-
-      <!-- Logo + title row -->
-      <div class="row align-items-center mb-4">
-        <div class="col-lg-8 col-md-8 d-flex align-items-center gap-3">
-          <img src="icon.png" alt="Sale Order Line Internal Note Icon" style="width:72px; height:72px; border-radius:16px; box-shadow:0 4px 16px rgba(99,102,241,.25)">
-          <div>
-            <div style="font-size:26px; font-weight:800; color:#1e293b; letter-spacing:-.02em">Sale Order Line Internal Note</div>
-            <div style="font-size:14px; color:#6366f1; font-weight:600; margin-top:2px">by SunMesa Labs</div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-4 d-none d-md-flex justify-content-end align-items-center gap-2">
-          <span style="background:#6366f1; color:#fff; padding:6px 16px; border-radius:20px; font-size:13px; font-weight:700">✓ Community</span>
-          <span style="background:#8b5cf6; color:#fff; padding:6px 16px; border-radius:20px; font-size:13px; font-weight:700">✓ Enterprise</span>
+<div class="container" style="padding-top:16px">
+  <div style="background-color:#fff; border:1px solid #e2e8f0; border-radius:18px; padding:16px 26px; margin:8px 0">
+    <div class="row justify-content-between align-items-center g-3">
+      <div class="col-lg-4 col-md-5 text-center text-md-start">
+        <div class="d-inline-flex align-items-center gap-3">
+          <img src="assets/sunmesa-logo.png" alt="SunMesa Labs" style="width:46px; height:46px; border-radius:12px">
+          <span style="font-size:22px; font-weight:800; color:#0b1220; letter-spacing:-.01em">SunMesa <span style="color:#0ea5c6">Labs</span></span>
         </div>
       </div>
-
-      <!-- KPI cards -->
-      <div class="row mt-2">
-        <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 card-group">
-          <div class="w-100 shadow" style="padding:24px 20px; border-radius:12px; background-color:#fff; margin:10px 0">
-            <div class="d-flex align-items-center justify-content-between">
-              <div>
-                <div style="font-size:14px; color:#64748b; font-weight:600; margin-bottom:4px">Covered Models</div>
-                <div style="font-size:28px; font-weight:800; color:#6366f1">2</div>
-              </div>
-              <div style="width:52px; height:52px; border-radius:50%; background:#eef2ff; display:flex; align-items:center; justify-content:center; font-size:24px">📋</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 card-group">
-          <div class="w-100 shadow" style="padding:24px 20px; border-radius:12px; background-color:#fff; margin:10px 0">
-            <div class="d-flex align-items-center justify-content-between">
-              <div>
-                <div style="font-size:14px; color:#64748b; font-weight:600; margin-bottom:4px">Odoo Version</div>
-                <div style="font-size:28px; font-weight:800; color:#6366f1">19.0</div>
-              </div>
-              <div style="width:52px; height:52px; border-radius:50%; background:#eef2ff; display:flex; align-items:center; justify-content:center; font-size:24px">⚡</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 card-group">
-          <div class="w-100 shadow" style="padding:24px 20px; border-radius:12px; background-color:#fff; margin:10px 0">
-            <div class="d-flex align-items-center justify-content-between">
-              <div>
-                <div style="font-size:14px; color:#64748b; font-weight:600; margin-bottom:4px">License</div>
-                <div style="font-size:28px; font-weight:800; color:#6366f1">LGPL-3</div>
-              </div>
-              <div style="width:52px; height:52px; border-radius:50%; background:#eef2ff; display:flex; align-items:center; justify-content:center; font-size:24px">🔓</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 card-group">
-          <div class="w-100 shadow" style="padding:24px 20px; border-radius:12px; background-color:#fff; margin:10px 0">
-            <div class="d-flex align-items-center justify-content-between">
-              <div>
-                <div style="font-size:14px; color:#64748b; font-weight:600; margin-bottom:4px">PDF Hidden</div>
-                <div style="font-size:28px; font-weight:800; color:#6366f1">100%</div>
-              </div>
-              <div style="width:52px; height:52px; border-radius:50%; background:#eef2ff; display:flex; align-items:center; justify-content:center; font-size:24px">🔒</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- CTA + badges -->
-      <div class="row justify-content-between align-items-center mt-2">
-        <div class="col-lg-6">
-          <a href="mailto:randy@sunmesalabs.com" style="text-decoration:none">
-            <div style="background:#6366f1; color:#fff; padding:12px 24px; border-radius:50px; display:inline-flex; align-items:center; gap:10px; font-size:15px; font-weight:700">
-              <span class="fa fa-envelope"></span>
-              Contact / Support &nbsp;·&nbsp; randy@sunmesalabs.com
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-6 d-none d-lg-flex justify-content-end gap-2 align-items-center">
-          <span style="border:1px solid #6366f1; color:#6366f1; padding:6px 16px; border-radius:8px; font-size:13px; font-weight:600">Sale &amp; Purchase</span>
-          <span style="border:1px solid #6366f1; color:#6366f1; padding:6px 16px; border-radius:8px; font-size:13px; font-weight:600">Toggleable Column</span>
-          <span style="border:1px solid #6366f1; color:#6366f1; padding:6px 16px; border-radius:8px; font-size:13px; font-weight:600">Free Forever</span>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-<!-- ============================================================
-     SECTION 2 — MODULE DESCRIPTION
-     ============================================================ -->
-<section style="padding:60px 0 20px 0">
-  <div class="container">
-    <div class="text-center">
-      <h4 style="font-size:31px; font-weight:700; color:#1e293b; margin-bottom:10px">Sale Order Line Internal Note</h4>
-      <div style="display:block; height:3px; width:80px; background:linear-gradient(90deg,#6366f1,#8b5cf6); margin:16px auto 32px auto; border-radius:4px"></div>
-      <p style="color:#475569; font-size:18px; max-width:700px; margin:0 auto; line-height:1.7">
-        Track deal terms, warehouse instructions, and negotiation context <strong>per line</strong> — not buried in the chatter.
-        A lightweight field that lives on each order line, stays <strong>100% invisible on customer and supplier PDFs</strong>,
-        and can be toggled on or off in the list view with a single click.
-      </p>
-    </div>
-  </div>
-</section>
-
-
-<!-- ============================================================
-     SECTION 2b — PAIN POINTS & SOLUTION
-     ============================================================ -->
-<section style="padding:20px 0 50px 0; background-color:transparent">
-  <div class="container">
-    <div class="row g-4">
-
-      <!-- Pain Points -->
-      <div class="col-md-6">
-        <div style="background:#fff5f5; border:1.5px solid #fecaca; border-radius:16px; padding:32px; height:100%">
-          <div style="font-size:22px; font-weight:800; color:#dc2626; margin-bottom:20px; display:flex; align-items:center; gap:10px">
-            <span style="font-size:28px">😓</span> The Problem
-          </div>
-          <ul style="list-style:none; padding:0; margin:0">
-            <li style="display:flex; gap:12px; margin-bottom:16px; align-items:flex-start">
-              <span style="color:#ef4444; font-size:18px; flex-shrink:0; margin-top:1px">✗</span>
-              <span style="color:#374151; font-size:15px; line-height:1.6">Odoo's built-in "Note" line type gets printed on the customer PDF — useless for internal memos.</span>
-            </li>
-            <li style="display:flex; gap:12px; margin-bottom:16px; align-items:flex-start">
-              <span style="color:#ef4444; font-size:18px; flex-shrink:0; margin-top:1px">✗</span>
-              <span style="color:#374151; font-size:15px; line-height:1.6">Chatter messages lose context — you can't tell which line the note is about without scrolling back.</span>
-            </li>
-            <li style="display:flex; gap:12px; margin-bottom:16px; align-items:flex-start">
-              <span style="color:#ef4444; font-size:18px; flex-shrink:0; margin-top:1px">✗</span>
-              <span style="color:#374151; font-size:15px; line-height:1.6">Sales teams maintain a separate spreadsheet for deal notes — always out of sync with the actual order.</span>
-            </li>
-            <li style="display:flex; gap:12px; align-items:flex-start">
-              <span style="color:#ef4444; font-size:18px; flex-shrink:0; margin-top:1px">✗</span>
-              <span style="color:#374151; font-size:15px; line-height:1.6">No per-line context for warehouse staff, accounting, or procurement — everyone works in the dark.</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Solution -->
-      <div class="col-md-6">
-        <div style="background:#f0fdf4; border:1.5px solid #86efac; border-radius:16px; padding:32px; height:100%">
-          <div style="font-size:22px; font-weight:800; color:#16a34a; margin-bottom:20px; display:flex; align-items:center; gap:10px">
-            <span style="font-size:28px">🎯</span> The Solution
-          </div>
-          <ul style="list-style:none; padding:0; margin:0">
-            <li style="display:flex; gap:12px; margin-bottom:16px; align-items:flex-start">
-              <span style="color:#22c55e; font-size:18px; flex-shrink:0; margin-top:1px">✓</span>
-              <span style="color:#374151; font-size:15px; line-height:1.6"><strong>Per-line Internal Note</strong> field on Sale Order and Purchase Order lines — inline editing, no popup.</span>
-            </li>
-            <li style="display:flex; gap:12px; margin-bottom:16px; align-items:flex-start">
-              <span style="color:#22c55e; font-size:18px; flex-shrink:0; margin-top:1px">✓</span>
-              <span style="color:#374151; font-size:15px; line-height:1.6"><strong>100% hidden from PDFs</strong> — never printed on quotations, orders, or any customer/supplier report.</span>
-            </li>
-            <li style="display:flex; gap:12px; margin-bottom:16px; align-items:flex-start">
-              <span style="color:#22c55e; font-size:18px; flex-shrink:0; margin-top:1px">✓</span>
-              <span style="color:#374151; font-size:15px; line-height:1.6"><strong>Toggleable column</strong> — show or hide with the ⇌ button in the list header. Screen space stays clean.</span>
-            </li>
-            <li style="display:flex; gap:12px; align-items:flex-start">
-              <span style="color:#22c55e; font-size:18px; flex-shrink:0; margin-top:1px">✓</span>
-              <span style="color:#374151; font-size:15px; line-height:1.6"><strong>Zero configuration</strong> — install and start writing notes immediately. No settings page needed.</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-<!-- ============================================================
-     SECTION 2c — DEMO GIF
-     ============================================================ -->
-<section style="padding:10px 0 40px 0; background-color:transparent">
-  <div class="container">
-    <div class="col-md-12">
-      <img class="img-responsive rounded" style="width:100%; border:2px solid #6366f1; border-radius:14px; box-shadow:0 8px 32px rgba(99,102,241,.18)" src="banner.gif" alt="Sale Order Line Internal Note Demo">
-    </div>
-  </div>
-</section>
-
-
-<!-- ============================================================
-     SECTION 3 — FEATURES
-     ============================================================ -->
-<section style="padding:50px 0; background-color:transparent">
-  <div class="container">
-    <div class="text-center mb-5">
-      <h4 style="font-size:28px; font-weight:700; color:#1e293b; margin-bottom:10px">Key Features</h4>
-      <div style="display:block; height:3px; width:60px; background:linear-gradient(90deg,#6366f1,#8b5cf6); margin:12px auto 0 auto; border-radius:4px"></div>
-    </div>
-    <div class="row g-3">
-
-      <div class="col-md-6">
-        <div class="p-4 shadow rounded h-100 d-flex align-items-center" style="border:1px solid #6366f1; border-radius:12px !important">
-          <div style="border:1px solid #6366f1; padding:10px; border-radius:8px; margin-right:20px; display:flex; min-width:60px; min-height:60px; align-items:center; justify-content:center; background:#eef2ff">
-            <span style="font-size:28px">📝</span>
-          </div>
-          <span style="font-size:16px; color:#1e293b; font-weight:600; letter-spacing:.5px">Internal Note per Sale Order line — type reason for discount, deal condition, or warehouse instruction directly on the row.</span>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="p-4 shadow rounded h-100 d-flex align-items-center" style="border:1px solid #6366f1; border-radius:12px !important">
-          <div style="border:1px solid #6366f1; padding:10px; border-radius:8px; margin-right:20px; display:flex; min-width:60px; min-height:60px; align-items:center; justify-content:center; background:#eef2ff">
-            <span style="font-size:28px">🛒</span>
-          </div>
-          <span style="font-size:16px; color:#1e293b; font-weight:600; letter-spacing:.5px">Internal Note per Purchase Order line — track quality requirements, price negotiations, or approval conditions per item.</span>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="p-4 shadow rounded h-100 d-flex align-items-center" style="border:1px solid #6366f1; border-radius:12px !important">
-          <div style="border:1px solid #6366f1; padding:10px; border-radius:8px; margin-right:20px; display:flex; min-width:60px; min-height:60px; align-items:center; justify-content:center; background:#eef2ff">
-            <span style="font-size:28px">🔒</span>
-          </div>
-          <span style="font-size:16px; color:#1e293b; font-weight:600; letter-spacing:.5px">100% hidden from all customer-facing PDFs — quotations, order confirmations, and invoices never show internal notes.</span>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="p-4 shadow rounded h-100 d-flex align-items-center" style="border:1px solid #6366f1; border-radius:12px !important">
-          <div style="border:1px solid #6366f1; padding:10px; border-radius:8px; margin-right:20px; display:flex; min-width:60px; min-height:60px; align-items:center; justify-content:center; background:#eef2ff">
-            <span style="font-size:28px">🎛️</span>
-          </div>
-          <span style="font-size:16px; color:#1e293b; font-weight:600; letter-spacing:.5px">Toggleable column — the ⇌ icon in the list header lets each user show or hide the column. Default: visible.</span>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="p-4 shadow rounded h-100 d-flex align-items-center" style="border:1px solid #6366f1; border-radius:12px !important">
-          <div style="border:1px solid #6366f1; padding:10px; border-radius:8px; margin-right:20px; display:flex; min-width:60px; min-height:60px; align-items:center; justify-content:center; background:#eef2ff">
-            <span style="font-size:28px">⚡</span>
-          </div>
-          <span style="font-size:16px; color:#1e293b; font-weight:600; letter-spacing:.5px">Zero configuration — install the module and the Internal Note column appears immediately on all order lines.</span>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="p-4 shadow rounded h-100 d-flex align-items-center" style="border:1px solid #6366f1; border-radius:12px !important">
-          <div style="border:1px solid #6366f1; padding:10px; border-radius:8px; margin-right:20px; display:flex; min-width:60px; min-height:60px; align-items:center; justify-content:center; background:#eef2ff">
-            <span style="font-size:28px">🔓</span>
-          </div>
-          <span style="font-size:16px; color:#1e293b; font-weight:600; letter-spacing:.5px">100% Free · LGPL-3 — requires only <code>sale_management</code> and <code>purchase</code>. No paid tier, no expiry.</span>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-<!-- ============================================================
-     SECTION 4 — SCREENSHOTS & SETUP GUIDE
-     ============================================================ -->
-<section style="padding:50px 0; background-color:transparent">
-  <div class="container">
-    <div class="text-center mb-5">
-      <h4 style="font-size:28px; font-weight:700; color:#1e293b; margin-bottom:10px">Setup &amp; Usage</h4>
-      <div style="display:block; height:3px; width:60px; background:linear-gradient(90deg,#6366f1,#8b5cf6); margin:12px auto 0 auto; border-radius:4px"></div>
-    </div>
-
-    <p style="color:#1e293b; font-size:18px; margin-bottom:20px; font-weight:600">
-      1) Place the <strong>nx_sale_order_line_note</strong> folder in your custom addons directory and restart Odoo.
-    </p>
-
-    <p style="color:#1e293b; font-size:18px; margin-bottom:20px; font-weight:600">
-      2) Enable Developer Mode — go to <strong>Settings → Activate Developer Mode</strong>, then <strong>Apps → Update Apps List</strong>.
-    </p>
-
-    <p style="color:#1e293b; font-size:18px; margin-bottom:20px; font-weight:600">
-      3) Search for <strong>"Sale Order Line Internal Note"</strong> in Apps and click <strong>Install</strong>.
-    </p>
-
-    <p style="color:#1e293b; font-size:18px; margin-bottom:16px; font-weight:600">
-      4) Open any Sale Order. The <strong>Internal Note</strong> column appears immediately in the Order Lines list — type notes directly on each line.
-    </p>
-    <div class="col-md-12">
-      <img class="img-responsive rounded" style="width:100%; border:1px solid #6366f1; border-radius:12px" src="screenshots/01-sale-order-internal-note-column.png" alt="Sale Order with Internal Note column">
-    </div>
-    <p style="color:#64748b; font-size:14px; text-align:center; margin:10px 0 32px 0; font-style:italic">Sale Order lines — "Internal Note" column visible with real deal context per line</p>
-
-    <p style="color:#1e293b; font-size:18px; margin-bottom:16px; font-weight:600">
-      5) Click the <strong>⇌ toggle icon</strong> at the top-right of the order lines table to show or hide the Internal Note column.
-    </p>
-    <div class="col-md-12">
-      <img class="img-responsive rounded" style="width:100%; border:1px solid #6366f1; border-radius:12px" src="screenshots/02-column-toggle-dropdown.png" alt="Column toggle dropdown showing Internal Note checkbox">
-    </div>
-    <p style="color:#64748b; font-size:14px; text-align:center; margin:10px 0 32px 0; font-style:italic">Column options — "Internal Note" is checked and visible; uncheck to hide it</p>
-
-    <p style="color:#1e293b; font-size:18px; margin-bottom:16px; font-weight:600">
-      6) Click <strong>Preview</strong> to confirm the customer portal / PDF contains no internal notes — only Products, Quantity, Unit Price, and Amount.
-    </p>
-    <div class="col-md-12">
-      <img class="img-responsive rounded" style="width:100%; border:1px solid #6366f1; border-radius:12px" src="screenshots/03-pdf-preview-no-internal-note.png" alt="PDF preview without internal notes">
-    </div>
-    <p style="color:#64748b; font-size:14px; text-align:center; margin:10px 0 32px 0; font-style:italic">Customer-facing quotation preview — zero internal notes visible to the customer</p>
-
-    <p style="color:#1e293b; font-size:18px; margin-bottom:16px; font-weight:600">
-      7) The same Internal Note column is available on <strong>Purchase Orders</strong> — track quality checks, price agreements, or procurement notes per line.
-    </p>
-    <div class="col-md-12">
-      <img class="img-responsive rounded" style="width:100%; border:1px solid #6366f1; border-radius:12px" src="screenshots/04-purchase-order-internal-note.png" alt="Purchase Order with Internal Note column">
-    </div>
-    <p style="color:#64748b; font-size:14px; text-align:center; margin:10px 0 32px 0; font-style:italic">Purchase Order lines — Internal Note column with procurement-specific notes per item</p>
-
-  </div>
-</section>
-
-
-<!-- ============================================================
-     SECTION 5 — FAQ
-     ============================================================ -->
-<section style="padding:50px 0; background-color:transparent">
-  <div class="container">
-    <div class="text-center mb-5">
-      <h4 style="font-size:28px; font-weight:700; color:#1e293b; margin-bottom:10px">Frequently Asked Questions</h4>
-      <div style="display:block; height:3px; width:60px; background:linear-gradient(90deg,#6366f1,#8b5cf6); margin:12px auto 0 auto; border-radius:4px"></div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-12">
-        <div class="accordion" id="accordion_faq">
-
-          <div style="margin:1rem 0">
-            <div class="card-header" data-bs-toggle="collapse" data-bs-target="#faq1" style="background-color:#f8f8f8; border:none; border-radius:10px 10px 0 0; padding:14px 24px; cursor:pointer">
-              <a class="card-title text-decoration-none" style="font-size:17px; font-weight:600; color:#1e293b">Will customers or suppliers ever see the internal notes?</a>
-            </div>
-            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#accordion_faq" style="border:1px solid #f8f8f8; border-radius:0 0 10px 10px">
-              <p style="padding:14px 24px; font-size:15px; color:#64748b; line-height:1.65; margin:0">
-                No. The <code>internal_note</code> field is simply not included in any Odoo report template. It is stored in the database but never rendered in quotation, order confirmation, invoice, or purchase order PDFs — by design, not by access control.
-              </p>
-            </div>
-          </div>
-
-          <div style="margin:1rem 0">
-            <div class="card-header collapsed" data-bs-toggle="collapse" data-bs-target="#faq2" style="background-color:#f8f8f8; border:none; border-radius:10px 10px 0 0; padding:14px 24px; cursor:pointer">
-              <a class="card-title text-decoration-none" style="font-size:17px; font-weight:600; color:#1e293b">Can I search or filter orders by their internal notes?</a>
-            </div>
-            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordion_faq" style="border:1px solid #f8f8f8; border-radius:0 0 10px 10px">
-              <p style="padding:14px 24px; font-size:15px; color:#64748b; line-height:1.65; margin:0">
-                Yes. The <code>internal_note</code> field is a stored <code>Text</code> field, so you can filter and search on it from the Filters/Search bar on the order line level. For order-level filtering, a custom filter via Settings → Technical is needed (LGPL-3 compatible).
-              </p>
-            </div>
-          </div>
-
-          <div style="margin:1rem 0">
-            <div class="card-header collapsed" data-bs-toggle="collapse" data-bs-target="#faq3" style="background-color:#f8f8f8; border:none; border-radius:10px 10px 0 0; padding:14px 24px; cursor:pointer">
-              <a class="card-title text-decoration-none" style="font-size:17px; font-weight:600; color:#1e293b">Does installing this module affect existing sale or purchase orders?</a>
-            </div>
-            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordion_faq" style="border:1px solid #f8f8f8; border-radius:0 0 10px 10px">
-              <p style="padding:14px 24px; font-size:15px; color:#64748b; line-height:1.65; margin:0">
-                No. The module only <strong>adds</strong> the <code>internal_note</code> column to <code>sale.order.line</code> and <code>purchase.order.line</code>. No existing data is modified. Uninstalling removes the column cleanly.
-              </p>
-            </div>
-          </div>
-
-          <div style="margin:1rem 0">
-            <div class="card-header collapsed" data-bs-toggle="collapse" data-bs-target="#faq4" style="background-color:#f8f8f8; border:none; border-radius:10px 10px 0 0; padding:14px 24px; cursor:pointer">
-              <a class="card-title text-decoration-none" style="font-size:17px; font-weight:600; color:#1e293b">I don't use Purchase — can I install just the Sale part?</a>
-            </div>
-            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#accordion_faq" style="border:1px solid #f8f8f8; border-radius:0 0 10px 10px">
-              <p style="padding:14px 24px; font-size:15px; color:#64748b; line-height:1.65; margin:0">
-                The module declares both <code>sale_management</code> and <code>purchase</code> as dependencies and installs both automatically. If your environment does not use Purchase at all, the purchase order form view extension is simply never displayed — no functional impact.
-              </p>
-            </div>
-          </div>
-
-          <div style="margin:1rem 0">
-            <div class="card-header collapsed" data-bs-toggle="collapse" data-bs-target="#faq5" style="background-color:#f8f8f8; border:none; border-radius:10px 10px 0 0; padding:14px 24px; cursor:pointer">
-              <a class="card-title text-decoration-none" style="font-size:17px; font-weight:600; color:#1e293b">Can I hide the Internal Note column to save screen space?</a>
-            </div>
-            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#accordion_faq" style="border:1px solid #f8f8f8; border-radius:0 0 10px 10px">
-              <p style="padding:14px 24px; font-size:15px; color:#64748b; line-height:1.65; margin:0">
-                Yes. The column is marked <code>optional="show"</code> — click the <strong>⇌ icon</strong> at the top-right corner of the order lines table and uncheck "Internal Note". The preference is saved per user.
-              </p>
-            </div>
-          </div>
-
+      <div class="col-lg-8 col-md-7">
+        <div class="text-center text-md-end">
+          <div style="margin-bottom:6px"><span style="font-weight:700; color:#334155; margin-right:6px">Odoo versions</span><span style="display:inline-block; padding:6px 14px; border-radius:30px; font-weight:700; font-size:.9rem; margin:2px; background-color:#0b1220; color:#22d3ee; border:1px solid #0b1220">19.0</span></div>
+          <div><span style="font-weight:700; color:#334155; margin-right:6px">Available on</span><span style="display:inline-block; padding:6px 14px; border-radius:30px; font-weight:600; font-size:.88rem; margin:2px; background-color:#ecfdf3; border:1px solid #bbf7d0; color:#15803d">✓ Community</span><span style="display:inline-block; padding:6px 14px; border-radius:30px; font-weight:600; font-size:.88rem; margin:2px; background-color:#ecfdf3; border:1px solid #bbf7d0; color:#15803d">✓ Enterprise</span><span style="display:inline-block; padding:6px 14px; border-radius:30px; font-weight:600; font-size:.88rem; margin:2px; background-color:#ecfdf3; border:1px solid #bbf7d0; color:#15803d">✓ Odoo.sh</span><span style="display:inline-block; padding:6px 14px; border-radius:30px; font-weight:600; font-size:.88rem; margin:2px; background-color:#fef2f2; border:1px solid #fecaca; color:#b91c1c">✗ Odoo Online</span></div>
         </div>
       </div>
     </div>
   </div>
-</section>
-
+</div>
 
 <!-- ============================================================
-     SECTION 6 — SUPPORT
+     HERO
      ============================================================ -->
-<section style="padding:40px 0 60px 0; background-color:transparent">
-  <div class="container">
-    <div class="text-center mb-5">
-      <h4 style="font-size:28px; font-weight:700; color:#1e293b; margin-bottom:10px">Support</h4>
-      <div style="display:block; height:3px; width:60px; background:linear-gradient(90deg,#6366f1,#8b5cf6); margin:12px auto 0 auto; border-radius:4px"></div>
-    </div>
-    <div class="row">
-      <div class="col-md-8 mx-auto">
-        <ul style="padding:0; list-style:none">
-          <li class="border rounded" style="padding:24px; margin-bottom:16px; border-color:#6366f1 !important; border-radius:12px">
-            <a href="mailto:randy@sunmesalabs.com" style="text-decoration:none; color:#1e293b; font-size:17px; font-weight:600; display:flex; align-items:center; gap:12px">
-              <span class="fa fa-envelope" style="color:#6366f1; font-size:22px"></span>
-              Email support: <strong style="color:#6366f1">randy@sunmesalabs.com</strong>
-            </a>
+<div class="container text-center" style="padding-top:34px; padding-bottom:6px">
+  <div><span style="display:inline-block; font-size:12px; letter-spacing:.18em; text-transform:uppercase; color:#0ea5c6; font-weight:800; margin-bottom:12px">Sales · Purchase · Order lines · Odoo 19.0</span></div>
+  <h3 style="font-size:2.6rem; font-weight:800; color:#0f172a; letter-spacing:-.02em; margin:0 0 14px; line-height:1.15">Order Line <span style="color:#0ea5c6">Internal Note</span></h3>
+  <p style="color:#475569; font-size:18px; max-width:760px; margin:0 auto 24px; line-height:1.7">
+    Write a private note on <b>each Sale Order and Purchase Order line</b> — discount reason, packaging
+    instruction, quality check — right in the order lines, and <b>never printed</b> for the customer or vendor.
+  </p>
+  <div>
+    <a href="mailto:randy@sunmesalabs.com" style="display:inline-block; padding:14px 28px; border-radius:50px; font-size:15px; font-weight:700; text-decoration:none; background-color:#0b1220; color:#fff; margin:4px">✉ Email us</a>
+    <a href="https://apps.odoo.com/apps/modules/browse?author=SunMesa%20Labs" style="display:inline-block; padding:14px 28px; border-radius:50px; font-size:15px; font-weight:700; text-decoration:none; background-color:#22d3ee; color:#0b1220; margin:4px">See all SunMesa Labs apps →</a>
+  </div>
+  <div style="display:inline-block; margin-top:24px; padding:9px 22px; background-color:#fffbeb; border:1.5px solid #fde68a; border-radius:50px">
+    <span style="color:#0b1220; font-weight:800">Free</span>
+    <span style="color:#e5c97a; margin:0 8px">|</span>
+    <span style="color:#92400e; font-weight:600">Free · LGPL-3 · No configuration</span>
+  </div>
+</div>
+
+<!-- ============================================================
+     PROBLEM / SOLUTION
+     ============================================================ -->
+<div class="container" style="padding-top:40px">
+  <div class="row g-4">
+    <div class="col-md-6">
+      <div style="height:100%; background-color:#fff5f5; border:1.5px solid #fecaca; border-radius:18px; padding:30px">
+        <div style="font-size:22px; font-weight:800; color:#b91c1c; margin-bottom:18px"><span style="font-size:28px; margin-right:8px">😓</span>The Problem</div>
+        <ul class="list-unstyled" style="padding:0; margin:0">
+          <li class="d-flex gap-2 align-items-start" style="margin-bottom:14px">
+            <span class="flex-shrink-0" style="color:#ef4444; font-size:18px; font-weight:800; line-height:1.4; width:20px">✗</span>
+            <span style="color:#334155; font-size:15px; line-height:1.6">A "note" line in the order is printed on the quotation — you cannot use it for internal remarks.</span>
           </li>
-          <li class="border rounded" style="padding:24px; margin-bottom:16px; border-color:#6366f1 !important; border-radius:12px">
-            <div style="font-size:16px; color:#475569; line-height:1.65">
-              <strong style="color:#1e293b">Response time:</strong> We aim to respond within 1–2 business days. Please include your Odoo version and a description of the issue.
-            </div>
+          <li class="d-flex gap-2 align-items-start" style="margin-bottom:14px">
+            <span class="flex-shrink-0" style="color:#ef4444; font-size:18px; font-weight:800; line-height:1.4; width:20px">✗</span>
+            <span style="color:#334155; font-size:15px; line-height:1.6">Remarks in the chatter are not tied to a line: which product was the special price for?</span>
           </li>
-          <li class="border rounded" style="padding:24px; border-color:#6366f1 !important; border-radius:12px">
-            <div style="font-size:16px; color:#475569; line-height:1.65">
-              <strong style="color:#1e293b">Source code:</strong> LGPL-3 — free to use, modify, and redistribute.
-              Available on GitHub:
-              <a href="https://github.com/RandyNguyenN/nx_sale_order_line_note" style="color:#6366f1; font-weight:600">
-                github.com/RandyNguyenN/nx_sale_order_line_note
-              </a>
-            </div>
+          <li class="d-flex gap-2 align-items-start" style="margin-bottom:14px">
+            <span class="flex-shrink-0" style="color:#ef4444; font-size:18px; font-weight:800; line-height:1.4; width:20px">✗</span>
+            <span style="color:#334155; font-size:15px; line-height:1.6">Deal details end up in spreadsheets or e-mails that nobody finds when the order is processed.</span>
+          </li>
+          <li class="d-flex gap-2 align-items-start" style="margin-bottom:14px">
+            <span class="flex-shrink-0" style="color:#ef4444; font-size:18px; font-weight:800; line-height:1.4; width:20px">✗</span>
+            <span style="color:#334155; font-size:15px; line-height:1.6">Purchasers have no place on the RFQ line for quality or price remarks about one item.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div style="height:100%; background-color:#ecfeff; border:1.5px solid #a5f3fc; border-radius:18px; padding:30px">
+        <div style="font-size:22px; font-weight:800; color:#0ea5c6; margin-bottom:18px"><span style="font-size:28px; margin-right:8px">🎯</span>The Solution</div>
+        <ul class="list-unstyled" style="padding:0; margin:0">
+          <li class="d-flex gap-2 align-items-start" style="margin-bottom:14px">
+            <span class="flex-shrink-0" style="color:#0ea5c6; font-size:18px; font-weight:800; line-height:1.4; width:20px">✓</span>
+            <span style="color:#334155; font-size:15px; line-height:1.6"><b>Internal Note column</b> on Sale Order lines, edited directly in the line like any other field.</span>
+          </li>
+          <li class="d-flex gap-2 align-items-start" style="margin-bottom:14px">
+            <span class="flex-shrink-0" style="color:#0ea5c6; font-size:18px; font-weight:800; line-height:1.4; width:20px">✓</span>
+            <span style="color:#334155; font-size:15px; line-height:1.6"><b>Same column on Purchase Order lines</b> — RFQs and purchase orders.</span>
+          </li>
+          <li class="d-flex gap-2 align-items-start" style="margin-bottom:14px">
+            <span class="flex-shrink-0" style="color:#0ea5c6; font-size:18px; font-weight:800; line-height:1.4; width:20px">✓</span>
+            <span style="color:#334155; font-size:15px; line-height:1.6"><b>Not added to any report</b> — quotations, the customer portal and RFQs print exactly as before.</span>
+          </li>
+          <li class="d-flex gap-2 align-items-start" style="margin-bottom:14px">
+            <span class="flex-shrink-0" style="color:#0ea5c6; font-size:18px; font-weight:800; line-height:1.4; width:20px">✓</span>
+            <span style="color:#334155; font-size:15px; line-height:1.6"><b>Optional column</b> — each user shows or hides it from the column selector of the lines list.</span>
           </li>
         </ul>
       </div>
     </div>
   </div>
-</section>
+</div>
+
+<div class="container" style="padding-top:26px">
+  <div class="shadow-lg" style="border-radius:20px; padding:10px; background-color:#0b1220">
+    <img src="banner.gif" alt="Sale Order Line Internal Note demo" style="width:100%; height:auto; display:block; border-radius:14px">
+  </div>
+</div>
+
+<!-- ============================================================
+     GUIDE + SUPPORT CARDS
+     ============================================================ -->
+<div class="container" style="padding-top:40px">
+  <div class="row g-4">
+    <div class="col-md-6">
+      <div style="height:100%; background-color:#fff; border:1px solid #e2e8f0; border-radius:18px; padding:30px">
+        <div style="width:58px; height:58px; border-radius:15px; background-color:#0b1220; text-align:center; line-height:58px; font-size:26px; margin-bottom:18px">📘</div>
+        <h3 style="font-size:1.4rem; font-weight:800; color:#0f172a; margin:0 0 8px">See it in 30 seconds</h3>
+        <p style="color:#475569; font-size:15px; line-height:1.6; margin:0 0 18px">Screenshots, every feature and the FAQ — all on this page.</p>
+        <a href="#soln-explore" style="display:inline-block; padding:11px 24px; border-radius:50px; font-weight:700; font-size:14px; text-decoration:none; background-color:#22d3ee; color:#0b1220">Explore features ↓</a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div style="height:100%; background-color:#fff; border:1px solid #e2e8f0; border-radius:18px; padding:30px">
+        <div style="width:58px; height:58px; border-radius:15px; background-color:#0b1220; text-align:center; line-height:58px; font-size:26px; margin-bottom:18px">🛟</div>
+        <h3 style="font-size:1.4rem; font-weight:800; color:#0f172a; margin:0 0 8px">Get help from the author</h3>
+        <p style="color:#475569; font-size:15px; line-height:1.6; margin:0 0 18px">Questions or a special need? Write to us, we answer within 1–2 business days.</p>
+        <a href="mailto:randy@sunmesalabs.com" style="display:inline-block; padding:11px 24px; border-radius:50px; font-weight:700; font-size:14px; text-decoration:none; background-color:#0b1220; color:#fff">Contact support</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     EXPLORE FEATURES (tabs)
+     ============================================================ -->
+<div class="container" id="soln-explore" style="max-width:1200px; margin:56px auto 30px; padding:0 16px">
+  
+      <div style="text-align:center; margin-bottom:28px">
+        <h2 style="font-size:2.1rem; font-weight:800; color:#0f172a; margin:0; letter-spacing:-.01em">Explore Features <span style="color:#0ea5c6">In Detail</span></h2>
+        <div style="width:66px; height:4px; background-color:#22d3ee; border-radius:3px; margin:16px auto 8px"></div>
+      </div>
+  
+        <ul class="nav nav-pills justify-content-center flex-wrap pb-3" role="tablist">
+          <li class="nav-item" role="presentation"><a class="nav-link active" data-bs-toggle="pill" data-bs-target="#soln-feat-sale" type="button" role="tab" style="width:max-content; border-radius:50px; margin:0 5px 8px; padding:11px 22px; font-weight:700; border:2px solid #e2e8f0">Sale Orders</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="pill" data-bs-target="#soln-feat-purchase" type="button" role="tab" style="width:max-content; border-radius:50px; margin:0 5px 8px; padding:11px 22px; font-weight:700; border:2px solid #e2e8f0">Purchase Orders</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="pill" data-bs-target="#soln-feat-private" type="button" role="tab" style="width:max-content; border-radius:50px; margin:0 5px 8px; padding:11px 22px; font-weight:700; border:2px solid #e2e8f0">Private &amp; Simple</a></li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="soln-feat-sale" role="tabpanel">
+      <div style="text-align:center; margin-bottom:28px">
+        <h3 style="font-size:1.55rem; font-weight:800; color:#0f172a; margin:0; letter-spacing:-.01em">Sale <span style="color:#0ea5c6">Orders</span></h3>
+        <div style="width:66px; height:4px; background-color:#22d3ee; border-radius:3px; margin:16px auto 8px"></div>
+      </div>
+          <div class="row">
+          <div class="col-md-6" style="margin-bottom:16px">
+            <div class="h-100 d-flex gap-3" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:20px 22px">
+              <span class="flex-shrink-0" style="display:inline-block; width:36px; height:36px; border-radius:10px; background-color:#0b1220; color:#22d3ee; font-weight:800; font-size:14px; text-align:center; line-height:36px">01</span>
+              <div>
+                <div style="font-size:16px; font-weight:700; color:#0f172a; margin:0 0 4px">One note per line</div>
+                <div style="font-size:14px; color:#475569; line-height:1.55">A free-text Internal Note field on every Sale Order line.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6" style="margin-bottom:16px">
+            <div class="h-100 d-flex gap-3" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:20px 22px">
+              <span class="flex-shrink-0" style="display:inline-block; width:36px; height:36px; border-radius:10px; background-color:#0b1220; color:#22d3ee; font-weight:800; font-size:14px; text-align:center; line-height:36px">02</span>
+              <div>
+                <div style="font-size:16px; font-weight:700; color:#0f172a; margin:0 0 4px">Edited inline</div>
+                <div style="font-size:14px; color:#475569; line-height:1.55">Click the cell and type — no popup, no extra tab.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6" style="margin-bottom:16px">
+            <div class="h-100 d-flex gap-3" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:20px 22px">
+              <span class="flex-shrink-0" style="display:inline-block; width:36px; height:36px; border-radius:10px; background-color:#0b1220; color:#22d3ee; font-weight:800; font-size:14px; text-align:center; line-height:36px">03</span>
+              <div>
+                <div style="font-size:16px; font-weight:700; color:#0f172a; margin:0 0 4px">Next to the amount</div>
+                <div style="font-size:14px; color:#475569; line-height:1.55">The column sits right after the line amount, so the note is read with the price.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6" style="margin-bottom:16px">
+            <div class="h-100 d-flex gap-3" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:20px 22px">
+              <span class="flex-shrink-0" style="display:inline-block; width:36px; height:36px; border-radius:10px; background-color:#0b1220; color:#22d3ee; font-weight:800; font-size:14px; text-align:center; line-height:36px">04</span>
+              <div>
+                <div style="font-size:16px; font-weight:700; color:#0f172a; margin:0 0 4px">Kept on the line</div>
+                <div style="font-size:14px; color:#475569; line-height:1.55">The note stays with its line from quotation to confirmed order.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+          <div class="tab-pane fade" id="soln-feat-purchase" role="tabpanel">
+      <div style="text-align:center; margin-bottom:28px">
+        <h3 style="font-size:1.55rem; font-weight:800; color:#0f172a; margin:0; letter-spacing:-.01em">Purchase <span style="color:#0ea5c6">Orders</span></h3>
+        <div style="width:66px; height:4px; background-color:#22d3ee; border-radius:3px; margin:16px auto 8px"></div>
+      </div>
+          <div class="row">
+          <div class="col-md-6" style="margin-bottom:16px">
+            <div class="h-100 d-flex gap-3" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:20px 22px">
+              <span class="flex-shrink-0" style="display:inline-block; width:36px; height:36px; border-radius:10px; background-color:#0b1220; color:#22d3ee; font-weight:800; font-size:14px; text-align:center; line-height:36px">01</span>
+              <div>
+                <div style="font-size:16px; font-weight:700; color:#0f172a; margin:0 0 4px">Same field on RFQs</div>
+                <div style="font-size:14px; color:#475569; line-height:1.55">Purchase Order lines get the same Internal Note column.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6" style="margin-bottom:16px">
+            <div class="h-100 d-flex gap-3" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:20px 22px">
+              <span class="flex-shrink-0" style="display:inline-block; width:36px; height:36px; border-radius:10px; background-color:#0b1220; color:#22d3ee; font-weight:800; font-size:14px; text-align:center; line-height:36px">02</span>
+              <div>
+                <div style="font-size:16px; font-weight:700; color:#0f172a; margin:0 0 4px">Procurement remarks</div>
+                <div style="font-size:14px; color:#475569; line-height:1.55">Quality checks, negotiated prices, delivery conditions — per product line.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6" style="margin-bottom:16px">
+            <div class="h-100 d-flex gap-3" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:20px 22px">
+              <span class="flex-shrink-0" style="display:inline-block; width:36px; height:36px; border-radius:10px; background-color:#0b1220; color:#22d3ee; font-weight:800; font-size:14px; text-align:center; line-height:36px">03</span>
+              <div>
+                <div style="font-size:16px; font-weight:700; color:#0f172a; margin:0 0 4px">Not printed for the vendor</div>
+                <div style="font-size:14px; color:#475569; line-height:1.55">The RFQ and purchase order reports are not changed.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+          <div class="tab-pane fade" id="soln-feat-private" role="tabpanel">
+      <div style="text-align:center; margin-bottom:28px">
+        <h3 style="font-size:1.55rem; font-weight:800; color:#0f172a; margin:0; letter-spacing:-.01em">Private <span style="color:#0ea5c6">&amp; Simple</span></h3>
+        <div style="width:66px; height:4px; background-color:#22d3ee; border-radius:3px; margin:16px auto 8px"></div>
+      </div>
+          <div class="row">
+          <div class="col-md-6" style="margin-bottom:16px">
+            <div class="h-100 d-flex gap-3" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:20px 22px">
+              <span class="flex-shrink-0" style="display:inline-block; width:36px; height:36px; border-radius:10px; background-color:#0b1220; color:#22d3ee; font-weight:800; font-size:14px; text-align:center; line-height:36px">01</span>
+              <div>
+                <div style="font-size:16px; font-weight:700; color:#0f172a; margin:0 0 4px">Customer view unchanged</div>
+                <div style="font-size:14px; color:#475569; line-height:1.55">Quotation PDF and portal preview show products, quantities and prices only.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6" style="margin-bottom:16px">
+            <div class="h-100 d-flex gap-3" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:20px 22px">
+              <span class="flex-shrink-0" style="display:inline-block; width:36px; height:36px; border-radius:10px; background-color:#0b1220; color:#22d3ee; font-weight:800; font-size:14px; text-align:center; line-height:36px">02</span>
+              <div>
+                <div style="font-size:16px; font-weight:700; color:#0f172a; margin:0 0 4px">Optional column</div>
+                <div style="font-size:14px; color:#475569; line-height:1.55">Visible by default; untick Internal Note in the column selector to hide it.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6" style="margin-bottom:16px">
+            <div class="h-100 d-flex gap-3" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:20px 22px">
+              <span class="flex-shrink-0" style="display:inline-block; width:36px; height:36px; border-radius:10px; background-color:#0b1220; color:#22d3ee; font-weight:800; font-size:14px; text-align:center; line-height:36px">03</span>
+              <div>
+                <div style="font-size:16px; font-weight:700; color:#0f172a; margin:0 0 4px">No configuration</div>
+                <div style="font-size:14px; color:#475569; line-height:1.55">Install the module and the column is there on every order.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6" style="margin-bottom:16px">
+            <div class="h-100 d-flex gap-3" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:20px 22px">
+              <span class="flex-shrink-0" style="display:inline-block; width:36px; height:36px; border-radius:10px; background-color:#0b1220; color:#22d3ee; font-weight:800; font-size:14px; text-align:center; line-height:36px">04</span>
+              <div>
+                <div style="font-size:16px; font-weight:700; color:#0f172a; margin:0 0 4px">Clean uninstall</div>
+                <div style="font-size:14px; color:#475569; line-height:1.55">Only one text field per line model is added; uninstalling removes it.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+        </div>
+</div>
+
+<!-- ============================================================
+     KEY HIGHLIGHTS
+     ============================================================ -->
+<div class="container" style="padding-top:20px; padding-bottom:20px">
+  
+      <div style="text-align:center; margin-bottom:28px">
+        <h2 style="font-size:2.1rem; font-weight:800; color:#0f172a; margin:0; letter-spacing:-.01em">Key <span style="color:#0ea5c6">Highlights</span></h2>
+        <div style="width:66px; height:4px; background-color:#22d3ee; border-radius:3px; margin:16px auto 8px"></div>
+      </div>
+  <div class="row">
+          <div class="col-md-4" style="margin-bottom:20px">
+            <div class="h-100 shadow-sm" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:18px; padding:26px 24px">
+              <div style="width:56px; height:56px; border-radius:14px; text-align:center; line-height:56px; font-size:26px; background-color:#ecfeff; border:1px solid #a5f3fc; margin-bottom:16px">📝</div>
+              <h3 style="font-size:19px; font-weight:800; color:#0f172a; margin:0 0 8px">Per-line note</h3>
+              <div style="font-size:14.5px; color:#475569; line-height:1.6">An Internal Note on each Sale Order line.</div>
+            </div>
+          </div>
+          <div class="col-md-4" style="margin-bottom:20px">
+            <div class="h-100 shadow-sm" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:18px; padding:26px 24px">
+              <div style="width:56px; height:56px; border-radius:14px; text-align:center; line-height:56px; font-size:26px; background-color:#ecfeff; border:1px solid #a5f3fc; margin-bottom:16px">🛒</div>
+              <h3 style="font-size:19px; font-weight:800; color:#0f172a; margin:0 0 8px">Purchase too</h3>
+              <div style="font-size:14.5px; color:#475569; line-height:1.6">The same column on RFQ and Purchase Order lines.</div>
+            </div>
+          </div>
+          <div class="col-md-4" style="margin-bottom:20px">
+            <div class="h-100 shadow-sm" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:18px; padding:26px 24px">
+              <div style="width:56px; height:56px; border-radius:14px; text-align:center; line-height:56px; font-size:26px; background-color:#ecfeff; border:1px solid #a5f3fc; margin-bottom:16px">🔒</div>
+              <h3 style="font-size:19px; font-weight:800; color:#0f172a; margin:0 0 8px">Not printed</h3>
+              <div style="font-size:14.5px; color:#475569; line-height:1.6">Quotations, portal and RFQs stay exactly as before.</div>
+            </div>
+          </div>
+          <div class="col-md-4" style="margin-bottom:20px">
+            <div class="h-100 shadow-sm" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:18px; padding:26px 24px">
+              <div style="width:56px; height:56px; border-radius:14px; text-align:center; line-height:56px; font-size:26px; background-color:#ecfeff; border:1px solid #a5f3fc; margin-bottom:16px">🎛️</div>
+              <h3 style="font-size:19px; font-weight:800; color:#0f172a; margin:0 0 8px">Optional column</h3>
+              <div style="font-size:14.5px; color:#475569; line-height:1.6">Each user shows or hides it in the lines list.</div>
+            </div>
+          </div>
+          <div class="col-md-4" style="margin-bottom:20px">
+            <div class="h-100 shadow-sm" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:18px; padding:26px 24px">
+              <div style="width:56px; height:56px; border-radius:14px; text-align:center; line-height:56px; font-size:26px; background-color:#ecfeff; border:1px solid #a5f3fc; margin-bottom:16px">⚡</div>
+              <h3 style="font-size:19px; font-weight:800; color:#0f172a; margin:0 0 8px">Zero setup</h3>
+              <div style="font-size:14.5px; color:#475569; line-height:1.6">Install and start writing notes.</div>
+            </div>
+          </div>
+          <div class="col-md-4" style="margin-bottom:20px">
+            <div class="h-100 shadow-sm" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:18px; padding:26px 24px">
+              <div style="width:56px; height:56px; border-radius:14px; text-align:center; line-height:56px; font-size:26px; background-color:#ecfeff; border:1px solid #a5f3fc; margin-bottom:16px">🆓</div>
+              <h3 style="font-size:19px; font-weight:800; color:#0f172a; margin:0 0 8px">Free · LGPL-3</h3>
+              <div style="font-size:14.5px; color:#475569; line-height:1.6">Depends only on Sales and Purchase.</div>
+            </div>
+          </div>
+        </div>
+</div>
+
+<!-- ============================================================
+     SCREENSHOTS / FEATURES / FAQ / RELEASE (tabs)
+     ============================================================ -->
+<div class="container" style="padding-top:30px; padding-bottom:30px">
+  
+        <ul class="nav nav-pills justify-content-start justify-content-md-center flex-wrap pb-3" role="tablist">
+          <li class="nav-item" role="presentation"><a class="nav-link active" data-bs-toggle="pill" data-bs-target="#soln-main-screens" type="button" role="tab" style="width:max-content; border-radius:50px; margin:0 5px 8px; padding:12px 24px; font-weight:700; border:2px solid #e2e8f0">Screenshots</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="pill" data-bs-target="#soln-main-features" type="button" role="tab" style="width:max-content; border-radius:50px; margin:0 5px 8px; padding:12px 24px; font-weight:700; border:2px solid #e2e8f0">Features</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="pill" data-bs-target="#soln-main-faq" type="button" role="tab" style="width:max-content; border-radius:50px; margin:0 5px 8px; padding:12px 24px; font-weight:700; border:2px solid #e2e8f0">FAQ</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="pill" data-bs-target="#soln-main-release" type="button" role="tab" style="width:max-content; border-radius:50px; margin:0 5px 8px; padding:12px 24px; font-weight:700; border:2px solid #e2e8f0">Latest Release</a></li>
+        </ul>
+        <div class="tab-content" style="background-color:#fff; border:2px solid #e2e8f0; border-radius:18px">
+          <div class="tab-pane fade show active" id="soln-main-screens" role="tabpanel">
+          <div style="padding:28px 18px 18px">
+      <div style="text-align:center; margin-bottom:28px">
+        <h2 style="font-size:2rem; font-weight:800; color:#0f172a; margin:0; letter-spacing:-.01em">App <span style="color:#0ea5c6">Screenshots</span></h2>
+        <div style="width:66px; height:4px; background-color:#22d3ee; border-radius:3px; margin:16px auto 8px"></div>
+      </div>
+          <div class="row">
+            <div class="col-lg-3" style="margin-bottom:16px">
+              <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" data-bs-toggle="pill" data-bs-target="#soln-shot-sale" type="button" role="tab" style="display:block; text-align:left; border:1px solid #e2e8f0; border-radius:12px; margin-bottom:6px; padding:12px 15px; font-weight:700">Sale Order lines</a>
+                <a class="nav-link" data-bs-toggle="pill" data-bs-target="#soln-shot-toggle" type="button" role="tab" style="display:block; text-align:left; border:1px solid #e2e8f0; border-radius:12px; margin-bottom:6px; padding:12px 15px; font-weight:700">Show / hide column</a>
+                <a class="nav-link" data-bs-toggle="pill" data-bs-target="#soln-shot-portal" type="button" role="tab" style="display:block; text-align:left; border:1px solid #e2e8f0; border-radius:12px; margin-bottom:6px; padding:12px 15px; font-weight:700">Customer preview</a>
+                <a class="nav-link" data-bs-toggle="pill" data-bs-target="#soln-shot-purchase" type="button" role="tab" style="display:block; text-align:left; border:1px solid #e2e8f0; border-radius:12px; margin-bottom:6px; padding:12px 15px; font-weight:700">Purchase Order lines</a>
+              </div>
+            </div>
+            <div class="col-lg-9">
+              <div class="tab-content">
+                <div class="tab-pane fade show active" id="soln-shot-sale" role="tabpanel">
+            <h3 style="font-size:1.1rem; font-weight:700; color:#0f172a; margin:22px 0 10px">Sale Order lines</h3>
+            <div class="overflow-hidden" style="border:1px solid #e2e8f0; border-radius:14px; margin-bottom:6px">
+              <img src="screenshots/01-sale-order-internal-note-column.png" alt="Sale Order lines" style="width:100%; height:auto; display:block">
+            </div>
+            <p style="color:#94a3b8; font-size:13.5px; margin:6px 0 0">The Internal Note column after the amount, with a note on each quotation line.</p>
+                </div>
+                <div class="tab-pane fade" id="soln-shot-toggle" role="tabpanel">
+            <h3 style="font-size:1.1rem; font-weight:700; color:#0f172a; margin:22px 0 10px">Show / hide column</h3>
+            <div class="overflow-hidden" style="border:1px solid #e2e8f0; border-radius:14px; margin-bottom:6px">
+              <img src="screenshots/02-column-toggle-dropdown.png" alt="Show / hide column" style="width:100%; height:auto; display:block">
+            </div>
+            <p style="color:#94a3b8; font-size:13.5px; margin:6px 0 0">The column selector of the order lines — Internal Note can be ticked or unticked.</p>
+                </div>
+                <div class="tab-pane fade" id="soln-shot-portal" role="tabpanel">
+            <h3 style="font-size:1.1rem; font-weight:700; color:#0f172a; margin:22px 0 10px">Customer preview</h3>
+            <div class="overflow-hidden" style="border:1px solid #e2e8f0; border-radius:14px; margin-bottom:6px">
+              <img src="screenshots/03-pdf-preview-no-internal-note.png" alt="Customer preview" style="width:100%; height:auto; display:block">
+            </div>
+            <p style="color:#94a3b8; font-size:13.5px; margin:6px 0 0">Customer portal preview of the same quotation — products, quantities and prices only, no internal notes.</p>
+                </div>
+                <div class="tab-pane fade" id="soln-shot-purchase" role="tabpanel">
+            <h3 style="font-size:1.1rem; font-weight:700; color:#0f172a; margin:22px 0 10px">Purchase Order lines</h3>
+            <div class="overflow-hidden" style="border:1px solid #e2e8f0; border-radius:14px; margin-bottom:6px">
+              <img src="screenshots/04-purchase-order-internal-note.png" alt="Purchase Order lines" style="width:100%; height:auto; display:block">
+            </div>
+            <p style="color:#94a3b8; font-size:13.5px; margin:6px 0 0">An RFQ with procurement notes in the Internal Note column.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+          <div class="tab-pane fade" id="soln-main-features" role="tabpanel">
+          <div style="padding:28px 18px 18px">
+      <div style="text-align:center; margin-bottom:28px">
+        <h2 style="font-size:2rem; font-weight:800; color:#0f172a; margin:0; letter-spacing:-.01em">Detailed <span style="color:#0ea5c6">Features</span></h2>
+        <div style="width:66px; height:4px; background-color:#22d3ee; border-radius:3px; margin:16px auto 8px"></div>
+      </div>
+          <div class="row">
+          <div class="col-lg-4 col-md-6" style="margin-bottom:16px">
+            <div class="h-100 d-flex gap-3" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:20px 22px">
+              <span class="flex-shrink-0" style="display:inline-block; width:36px; height:36px; border-radius:10px; background-color:#0b1220; color:#22d3ee; font-weight:800; font-size:14px; text-align:center; line-height:36px">01</span>
+              <div>
+                <div style="font-size:16px; font-weight:700; color:#0f172a; margin:0 0 4px">One note per line</div>
+                <div style="font-size:14px; color:#475569; line-height:1.55">A free-text Internal Note field on every Sale Order line.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" style="margin-bottom:16px">
+            <div class="h-100 d-flex gap-3" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:20px 22px">
+              <span class="flex-shrink-0" style="display:inline-block; width:36px; height:36px; border-radius:10px; background-color:#0b1220; color:#22d3ee; font-weight:800; font-size:14px; text-align:center; line-height:36px">02</span>
+              <div>
+                <div style="font-size:16px; font-weight:700; color:#0f172a; margin:0 0 4px">Edited inline</div>
+                <div style="font-size:14px; color:#475569; line-height:1.55">Click the cell and type — no popup, no extra tab.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" style="margin-bottom:16px">
+            <div class="h-100 d-flex gap-3" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:20px 22px">
+              <span class="flex-shrink-0" style="display:inline-block; width:36px; height:36px; border-radius:10px; background-color:#0b1220; color:#22d3ee; font-weight:800; font-size:14px; text-align:center; line-height:36px">03</span>
+              <div>
+                <div style="font-size:16px; font-weight:700; color:#0f172a; margin:0 0 4px">Next to the amount</div>
+                <div style="font-size:14px; color:#475569; line-height:1.55">The column sits right after the line amount, so the note is read with the price.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" style="margin-bottom:16px">
+            <div class="h-100 d-flex gap-3" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:20px 22px">
+              <span class="flex-shrink-0" style="display:inline-block; width:36px; height:36px; border-radius:10px; background-color:#0b1220; color:#22d3ee; font-weight:800; font-size:14px; text-align:center; line-height:36px">04</span>
+              <div>
+                <div style="font-size:16px; font-weight:700; color:#0f172a; margin:0 0 4px">Kept on the line</div>
+                <div style="font-size:14px; color:#475569; line-height:1.55">The note stays with its line from quotation to confirmed order.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" style="margin-bottom:16px">
+            <div class="h-100 d-flex gap-3" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:20px 22px">
+              <span class="flex-shrink-0" style="display:inline-block; width:36px; height:36px; border-radius:10px; background-color:#0b1220; color:#22d3ee; font-weight:800; font-size:14px; text-align:center; line-height:36px">05</span>
+              <div>
+                <div style="font-size:16px; font-weight:700; color:#0f172a; margin:0 0 4px">Same field on RFQs</div>
+                <div style="font-size:14px; color:#475569; line-height:1.55">Purchase Order lines get the same Internal Note column.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" style="margin-bottom:16px">
+            <div class="h-100 d-flex gap-3" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:20px 22px">
+              <span class="flex-shrink-0" style="display:inline-block; width:36px; height:36px; border-radius:10px; background-color:#0b1220; color:#22d3ee; font-weight:800; font-size:14px; text-align:center; line-height:36px">06</span>
+              <div>
+                <div style="font-size:16px; font-weight:700; color:#0f172a; margin:0 0 4px">Procurement remarks</div>
+                <div style="font-size:14px; color:#475569; line-height:1.55">Quality checks, negotiated prices, delivery conditions — per product line.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" style="margin-bottom:16px">
+            <div class="h-100 d-flex gap-3" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:20px 22px">
+              <span class="flex-shrink-0" style="display:inline-block; width:36px; height:36px; border-radius:10px; background-color:#0b1220; color:#22d3ee; font-weight:800; font-size:14px; text-align:center; line-height:36px">07</span>
+              <div>
+                <div style="font-size:16px; font-weight:700; color:#0f172a; margin:0 0 4px">Not printed for the vendor</div>
+                <div style="font-size:14px; color:#475569; line-height:1.55">The RFQ and purchase order reports are not changed.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" style="margin-bottom:16px">
+            <div class="h-100 d-flex gap-3" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:20px 22px">
+              <span class="flex-shrink-0" style="display:inline-block; width:36px; height:36px; border-radius:10px; background-color:#0b1220; color:#22d3ee; font-weight:800; font-size:14px; text-align:center; line-height:36px">08</span>
+              <div>
+                <div style="font-size:16px; font-weight:700; color:#0f172a; margin:0 0 4px">Customer view unchanged</div>
+                <div style="font-size:14px; color:#475569; line-height:1.55">Quotation PDF and portal preview show products, quantities and prices only.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" style="margin-bottom:16px">
+            <div class="h-100 d-flex gap-3" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:20px 22px">
+              <span class="flex-shrink-0" style="display:inline-block; width:36px; height:36px; border-radius:10px; background-color:#0b1220; color:#22d3ee; font-weight:800; font-size:14px; text-align:center; line-height:36px">09</span>
+              <div>
+                <div style="font-size:16px; font-weight:700; color:#0f172a; margin:0 0 4px">Optional column</div>
+                <div style="font-size:14px; color:#475569; line-height:1.55">Visible by default; untick Internal Note in the column selector to hide it.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" style="margin-bottom:16px">
+            <div class="h-100 d-flex gap-3" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:20px 22px">
+              <span class="flex-shrink-0" style="display:inline-block; width:36px; height:36px; border-radius:10px; background-color:#0b1220; color:#22d3ee; font-weight:800; font-size:14px; text-align:center; line-height:36px">10</span>
+              <div>
+                <div style="font-size:16px; font-weight:700; color:#0f172a; margin:0 0 4px">No configuration</div>
+                <div style="font-size:14px; color:#475569; line-height:1.55">Install the module and the column is there on every order.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" style="margin-bottom:16px">
+            <div class="h-100 d-flex gap-3" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:20px 22px">
+              <span class="flex-shrink-0" style="display:inline-block; width:36px; height:36px; border-radius:10px; background-color:#0b1220; color:#22d3ee; font-weight:800; font-size:14px; text-align:center; line-height:36px">11</span>
+              <div>
+                <div style="font-size:16px; font-weight:700; color:#0f172a; margin:0 0 4px">Clean uninstall</div>
+                <div style="font-size:14px; color:#475569; line-height:1.55">Only one text field per line model is added; uninstalling removes it.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+          </div>
+          <div class="tab-pane fade" id="soln-main-faq" role="tabpanel">
+          <div style="padding:28px 18px 18px">
+      <div style="text-align:center; margin-bottom:28px">
+        <h2 style="font-size:2rem; font-weight:800; color:#0f172a; margin:0; letter-spacing:-.01em">Frequently Asked <span style="color:#0ea5c6">Questions</span></h2>
+        <div style="width:66px; height:4px; background-color:#22d3ee; border-radius:3px; margin:16px auto 8px"></div>
+      </div>
+          <div style="max-width:900px; margin:0 auto">
+            <details style="background-color:#fff; border:1px solid #e2e8f0; border-radius:14px; margin-bottom:14px; padding:2px 8px" open>
+              <summary style="padding:16px 14px; font-weight:700; font-size:1.05rem; color:#0f172a">Will customers or vendors ever see the note?</summary>
+              <div style="padding:0 14px 18px; color:#475569; font-size:15px; line-height:1.65">No. The module does not add the field to any report or portal page, so quotations, sale orders, the customer portal, RFQs and purchase orders print exactly as in standard Odoo.</div>
+            </details>
+            <details style="background-color:#fff; border:1px solid #e2e8f0; border-radius:14px; margin-bottom:14px; padding:2px 8px">
+              <summary style="padding:16px 14px; font-weight:700; font-size:1.05rem; color:#0f172a">How is it different from adding a note line?</summary>
+              <div style="padding:0 14px 18px; color:#475569; font-size:15px; line-height:1.65">A standard note line (Add a note) is a separate line that is printed on the quotation. The Internal Note belongs to a product line and stays internal.</div>
+            </details>
+            <details style="background-color:#fff; border:1px solid #e2e8f0; border-radius:14px; margin-bottom:14px; padding:2px 8px">
+              <summary style="padding:16px 14px; font-weight:700; font-size:1.05rem; color:#0f172a">Can I hide the column?</summary>
+              <div style="padding:0 14px 18px; color:#475569; font-size:15px; line-height:1.65">Yes. It is an optional column, visible by default. Each user can untick <b>Internal Note</b> in the column selector at the right of the order lines header.</div>
+            </details>
+            <details style="background-color:#fff; border:1px solid #e2e8f0; border-radius:14px; margin-bottom:14px; padding:2px 8px">
+              <summary style="padding:16px 14px; font-weight:700; font-size:1.05rem; color:#0f172a">Is the note copied to the invoice?</summary>
+              <div style="padding:0 14px 18px; color:#475569; font-size:15px; line-height:1.65">No. The note lives on the Sale Order or Purchase Order line only; invoices and bills are not changed.</div>
+            </details>
+            <details style="background-color:#fff; border:1px solid #e2e8f0; border-radius:14px; margin-bottom:14px; padding:2px 8px">
+              <summary style="padding:16px 14px; font-weight:700; font-size:1.05rem; color:#0f172a">Is there anything to configure?</summary>
+              <div style="padding:0 14px 18px; color:#475569; font-size:15px; line-height:1.65">No. Install the module and the Internal Note column appears on Sale Order and Purchase Order lines. It depends only on Sales and Purchase.</div>
+            </details>
+          </div>
+          </div>
+          </div>
+          <div class="tab-pane fade" id="soln-main-release" role="tabpanel">
+          <div style="padding:28px 18px 18px">
+      <div style="text-align:center; margin-bottom:28px">
+        <h2 style="font-size:2rem; font-weight:800; color:#0f172a; margin:0; letter-spacing:-.01em">Latest <span style="color:#0ea5c6">Release</span></h2>
+        <div style="width:66px; height:4px; background-color:#22d3ee; border-radius:3px; margin:16px auto 8px"></div>
+      </div>
+          <div class="row justify-content-center">
+            <div class="col-md-6" style="margin-bottom:16px">
+              <div style="height:100%; padding:28px; border:2px solid #a5f3fc; border-radius:16px; background-color:#fff">
+                <div class="d-flex align-items-center flex-wrap gap-3" style="margin-bottom:14px">
+                  <span style="font-size:1.25rem; font-weight:800; color:#0f172a">19.0.1.0.0</span>
+                  <span style="padding:4px 12px; border-radius:20px; font-size:.75rem; font-weight:800; text-transform:uppercase; letter-spacing:.5px; background-color:#dcfce7; color:#15803d">Add</span>
+                  <span style="color:#94a3b8; font-size:.875rem; font-weight:600">📅 02 Jun 2026</span>
+                </div>
+                <div style="border-radius:10px; padding:16px 18px; background-color:#f8fafc; color:#475569; line-height:1.6; font-size:.95rem">
+                  First release: Internal Note on Sale Order and Purchase Order lines, optional column, not printed on customer or vendor documents.
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+        </div>
+</div>
+
+<!-- ============================================================
+     WHY SUNMESA LABS
+     ============================================================ -->
+<div class="container" style="padding-top:30px; padding-bottom:10px">
+  
+      <div style="text-align:center; margin-bottom:28px">
+        <h2 style="font-size:2.1rem; font-weight:800; color:#0f172a; margin:0; letter-spacing:-.01em">Why <span style="color:#0ea5c6">SunMesa Labs</span></h2>
+        <div style="width:66px; height:4px; background-color:#22d3ee; border-radius:3px; margin:16px auto 8px"></div>
+      </div>
+  <div class="row">
+          <div class="col-lg-3 col-md-6" style="margin-bottom:20px">
+            <div class="h-100 shadow-sm" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:18px; padding:26px 24px">
+              <div style="width:56px; height:56px; border-radius:14px; text-align:center; line-height:56px; font-size:26px; background-color:#ecfeff; border:1px solid #a5f3fc; margin-bottom:16px">💳</div>
+              <h3 style="font-size:19px; font-weight:800; color:#0f172a; margin:0 0 8px">One-time price</h3>
+              <div style="font-size:14.5px; color:#475569; line-height:1.6">Pay once, use it forever on your database. No subscription.</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6" style="margin-bottom:20px">
+            <div class="h-100 shadow-sm" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:18px; padding:26px 24px">
+              <div style="width:56px; height:56px; border-radius:14px; text-align:center; line-height:56px; font-size:26px; background-color:#ecfeff; border:1px solid #a5f3fc; margin-bottom:16px">📨</div>
+              <h3 style="font-size:19px; font-weight:800; color:#0f172a; margin:0 0 8px">Same support</h3>
+              <div style="font-size:14.5px; color:#475569; line-height:1.6">One team for all our apps — write to randy@sunmesalabs.com, we answer within 1–2 business days.</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6" style="margin-bottom:20px">
+            <div class="h-100 shadow-sm" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:18px; padding:26px 24px">
+              <div style="width:56px; height:56px; border-radius:14px; text-align:center; line-height:56px; font-size:26px; background-color:#ecfeff; border:1px solid #a5f3fc; margin-bottom:16px">🧩</div>
+              <h3 style="font-size:19px; font-weight:800; color:#0f172a; margin:0 0 8px">Current Odoo versions</h3>
+              <div style="font-size:14.5px; color:#475569; line-height:1.6">Every app ships for the current Odoo versions, each branch tested on its own version.</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6" style="margin-bottom:20px">
+            <div class="h-100 shadow-sm" style="background-color:#fff; border:1px solid #e2e8f0; border-radius:18px; padding:26px 24px">
+              <div style="width:56px; height:56px; border-radius:14px; text-align:center; line-height:56px; font-size:26px; background-color:#ecfeff; border:1px solid #a5f3fc; margin-bottom:16px">✅</div>
+              <h3 style="font-size:19px; font-weight:800; color:#0f172a; margin:0 0 8px">Tested before release</h3>
+              <div style="font-size:14.5px; color:#475569; line-height:1.6">Automated tests run on a fresh database before every update.</div>
+            </div>
+          </div>
+        </div>
+  <div style="text-align:center; color:#475569; font-size:14px; margin-top:6px">Odoo 19 · Support: <a href="mailto:randy@sunmesalabs.com" style="color:#0ea5c6; font-weight:700">randy@sunmesalabs.com</a> · Website: <b style="color:#0b1220">odoo.sunmesalabs.com</b></div>
+</div>
+
+<!-- SUNMESA-CROSS-SELL:START -->
+<div class="container" style="padding-top:40px; padding-bottom:40px">
+  <div style="text-align:center; margin-bottom:30px">
+    <h2 style="font-size:2.1rem; font-weight:800; color:#0f172a; margin:0; letter-spacing:-.01em">More apps by <span style="color:#0ea5c6">SunMesa Labs</span></h2>
+    <div style="width:66px; height:4px; background-color:#22d3ee; border-radius:3px; margin:16px auto 8px"></div>
+    <p style="color:#64748b; font-size:16px; margin:6px auto 0">12 focused apps for Odoo 19.0 · same support · one-time price, no subscription</p>
+  </div>
+  <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <a href="https://apps.odoo.com/apps/modules/19.0/sale_customer_credit_hold" class="d-block h-100" style="text-decoration:none">
+            <div class="h-100 d-flex flex-column shadow-sm" style="background-color:#fff; border:2px solid #e2e8f0; border-radius:16px; padding:22px">
+              <div class="overflow-hidden" style="border:2px solid #e2e8f0; border-radius:12px; margin-bottom:16px">
+                <img src="more-apps/sale_customer_credit_hold.jpg" alt="Customer Credit Hold &amp; Overdue Warning" style="width:100%; height:auto; display:block">
+              </div>
+              <h3 style="font-size:19px; font-weight:800; color:#0f172a; line-height:1.3; margin:0 0 6px; letter-spacing:-.01em">Customer Credit Hold &amp; Overdue Warning</h3>
+              <div class="flex-grow-1" style="font-size:14.5px; color:#64748b; line-height:1.6; margin-bottom:14px">Red banner + optional block on Sale Orders when customer has overdue invoices.</div>
+              <div class="d-flex justify-content-between align-items-center" style="border-top:1px solid #e2e8f0; padding-top:12px">
+                <span style="font-size:14px; font-weight:800; color:#0b1220">$49 one-time<span style="color:#94a3b8; font-weight:600"></span></span>
+                <span style="font-size:14px; font-weight:800; color:#0ea5c6">View app →</span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <a href="https://apps.odoo.com/apps/modules/19.0/sale_recurring_simple" class="d-block h-100" style="text-decoration:none">
+            <div class="h-100 d-flex flex-column shadow-sm" style="background-color:#fff; border:2px solid #e2e8f0; border-radius:16px; padding:22px">
+              <div class="overflow-hidden" style="border:2px solid #e2e8f0; border-radius:12px; margin-bottom:16px">
+                <img src="more-apps/sale_recurring_simple.jpg" alt="Simple Recurring Sales Orders" style="width:100%; height:auto; display:block">
+              </div>
+              <h3 style="font-size:19px; font-weight:800; color:#0f172a; line-height:1.3; margin:0 0 6px; letter-spacing:-.01em">Simple Recurring Sales Orders</h3>
+              <div class="flex-grow-1" style="font-size:14.5px; color:#64748b; line-height:1.6; margin-bottom:14px">Auto-duplicate Sale Orders on a weekly/monthly schedule — no Subscriptions app required.</div>
+              <div class="d-flex justify-content-between align-items-center" style="border-top:1px solid #e2e8f0; padding-top:12px">
+                <span style="font-size:14px; font-weight:800; color:#0b1220">$20 one-time<span style="color:#94a3b8; font-weight:600"></span></span>
+                <span style="font-size:14px; font-weight:800; color:#0ea5c6">View app →</span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <a href="https://apps.odoo.com/apps/modules/19.0/sale_margin_role_control" class="d-block h-100" style="text-decoration:none">
+            <div class="h-100 d-flex flex-column shadow-sm" style="background-color:#fff; border:2px solid #e2e8f0; border-radius:16px; padding:22px">
+              <div class="overflow-hidden" style="border:2px solid #e2e8f0; border-radius:12px; margin-bottom:16px">
+                <img src="more-apps/sale_margin_role_control.jpg" alt="Sale Margin Visibility by Role" style="width:100%; height:auto; display:block">
+              </div>
+              <h3 style="font-size:19px; font-weight:800; color:#0f172a; line-height:1.3; margin:0 0 6px; letter-spacing:-.01em">Sale Margin Visibility by Role</h3>
+              <div class="flex-grow-1" style="font-size:14.5px; color:#64748b; line-height:1.6; margin-bottom:14px">Restrict margin &amp; cost price visibility to Sales Managers. Set minimum margin threshold with red-alert warnings. Audit…</div>
+              <div class="d-flex justify-content-between align-items-center" style="border-top:1px solid #e2e8f0; padding-top:12px">
+                <span style="font-size:14px; font-weight:800; color:#0b1220">$15 one-time<span style="color:#94a3b8; font-weight:600"></span></span>
+                <span style="font-size:14px; font-weight:800; color:#0ea5c6">View app →</span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <a href="https://apps.odoo.com/apps/modules/19.0/partner_credit_warning" class="d-block h-100" style="text-decoration:none">
+            <div class="h-100 d-flex flex-column shadow-sm" style="background-color:#fff; border:2px solid #e2e8f0; border-radius:16px; padding:22px">
+              <div class="overflow-hidden" style="border:2px solid #e2e8f0; border-radius:12px; margin-bottom:16px">
+                <img src="more-apps/partner_credit_warning.jpg" alt="Customer Credit Warning on Sale Order" style="width:100%; height:auto; display:block">
+              </div>
+              <h3 style="font-size:19px; font-weight:800; color:#0f172a; line-height:1.3; margin:0 0 6px; letter-spacing:-.01em">Customer Credit Warning on Sale Order</h3>
+              <div class="flex-grow-1" style="font-size:14.5px; color:#64748b; line-height:1.6; margin-bottom:14px">Warn or block sale order confirmation when customer exceeds credit limit — free Community alternative to Odoo…</div>
+              <div class="d-flex justify-content-between align-items-center" style="border-top:1px solid #e2e8f0; padding-top:12px">
+                <span style="font-size:14px; font-weight:800; color:#16a34a">Free<span style="color:#94a3b8; font-weight:600"></span></span>
+                <span style="font-size:14px; font-weight:800; color:#0ea5c6">View app →</span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <a href="https://apps.odoo.com/apps/modules/19.0/lp_dashboard" class="d-block h-100" style="text-decoration:none">
+            <div class="h-100 d-flex flex-column shadow-sm" style="background-color:#fff; border:2px solid #e2e8f0; border-radius:16px; padding:22px">
+              <div class="overflow-hidden" style="border:2px solid #e2e8f0; border-radius:12px; margin-bottom:16px">
+                <img src="more-apps/lp_dashboard.jpg" alt="Smart Home Menu — Sidebar, Dark Mode &amp; App Categories" style="width:100%; height:auto; display:block">
+              </div>
+              <h3 style="font-size:19px; font-weight:800; color:#0f172a; line-height:1.3; margin:0 0 6px; letter-spacing:-.01em">Smart Home Menu — Sidebar, Dark Mode &amp; App Categories</h3>
+              <div class="flex-grow-1" style="font-size:14.5px; color:#64748b; line-height:1.6; margin-bottom:14px">Replace the Enterprise home screen with a smart sidebar navigator: auto-categorized apps, Dark Mode, Grid/List views…</div>
+              <div class="d-flex justify-content-between align-items-center" style="border-top:1px solid #e2e8f0; padding-top:12px">
+                <span style="font-size:14px; font-weight:800; color:#0b1220">$39 one-time<span style="color:#94a3b8; font-weight:600"> · Enterprise</span></span>
+                <span style="font-size:14px; font-weight:800; color:#0ea5c6">View app →</span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <a href="https://apps.odoo.com/apps/modules/19.0/hr_onboarding_checklist_odoo" class="d-block h-100" style="text-decoration:none">
+            <div class="h-100 d-flex flex-column shadow-sm" style="background-color:#fff; border:2px solid #e2e8f0; border-radius:16px; padding:22px">
+              <div class="overflow-hidden" style="border:2px solid #e2e8f0; border-radius:12px; margin-bottom:16px">
+                <img src="more-apps/hr_onboarding_checklist_odoo.jpg" alt="Employee Onboarding Checklist" style="width:100%; height:auto; display:block">
+              </div>
+              <h3 style="font-size:19px; font-weight:800; color:#0f172a; line-height:1.3; margin:0 0 6px; letter-spacing:-.01em">Employee Onboarding Checklist</h3>
+              <div class="flex-grow-1" style="font-size:14.5px; color:#64748b; line-height:1.6; margin-bottom:14px">Automate employee onboarding with templates, task checklists, auto-assignment, and deadline reminders.</div>
+              <div class="d-flex justify-content-between align-items-center" style="border-top:1px solid #e2e8f0; padding-top:12px">
+                <span style="font-size:14px; font-weight:800; color:#0b1220">$25 one-time<span style="color:#94a3b8; font-weight:600"></span></span>
+                <span style="font-size:14px; font-weight:800; color:#0ea5c6">View app →</span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <a href="https://apps.odoo.com/apps/modules/19.0/rn_stock_aging_report" class="d-block h-100" style="text-decoration:none">
+            <div class="h-100 d-flex flex-column shadow-sm" style="background-color:#fff; border:2px solid #e2e8f0; border-radius:16px; padding:22px">
+              <div class="overflow-hidden" style="border:2px solid #e2e8f0; border-radius:12px; margin-bottom:16px">
+                <img src="more-apps/rn_stock_aging_report.jpg" alt="Stock Aging Report" style="width:100%; height:auto; display:block">
+              </div>
+              <h3 style="font-size:19px; font-weight:800; color:#0f172a; line-height:1.3; margin:0 0 6px; letter-spacing:-.01em">Stock Aging Report</h3>
+              <div class="flex-grow-1" style="font-size:14.5px; color:#64748b; line-height:1.6; margin-bottom:14px">Identify dead stock — aging report grouped 0-30, 31-60, 61-90, &gt;90 days with Excel export.</div>
+              <div class="d-flex justify-content-between align-items-center" style="border-top:1px solid #e2e8f0; padding-top:12px">
+                <span style="font-size:14px; font-weight:800; color:#0b1220">$15 one-time<span style="color:#94a3b8; font-weight:600"></span></span>
+                <span style="font-size:14px; font-weight:800; color:#0ea5c6">View app →</span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <a href="https://apps.odoo.com/apps/modules/19.0/mail_chatter_collapse" class="d-block h-100" style="text-decoration:none">
+            <div class="h-100 d-flex flex-column shadow-sm" style="background-color:#fff; border:2px solid #e2e8f0; border-radius:16px; padding:22px">
+              <div class="overflow-hidden" style="border:2px solid #e2e8f0; border-radius:12px; margin-bottom:16px">
+                <img src="more-apps/mail_chatter_collapse.jpg" alt="Collapsible Chatter - Hide Side Log Note Panel" style="width:100%; height:auto; display:block">
+              </div>
+              <h3 style="font-size:19px; font-weight:800; color:#0f172a; line-height:1.3; margin:0 0 6px; letter-spacing:-.01em">Collapsible Chatter - Hide Side Log Note Panel</h3>
+              <div class="flex-grow-1" style="font-size:14.5px; color:#64748b; line-height:1.6; margin-bottom:14px">One-click arrow to collapse the side chatter (Send message / Log note) so form views and their list tables use the full…</div>
+              <div class="d-flex justify-content-between align-items-center" style="border-top:1px solid #e2e8f0; padding-top:12px">
+                <span style="font-size:14px; font-weight:800; color:#0b1220">$9 one-time<span style="color:#94a3b8; font-weight:600"></span></span>
+                <span style="font-size:14px; font-weight:800; color:#0ea5c6">View app →</span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <a href="https://apps.odoo.com/apps/modules/19.0/odoo_employee_birthday" class="d-block h-100" style="text-decoration:none">
+            <div class="h-100 d-flex flex-column shadow-sm" style="background-color:#fff; border:2px solid #e2e8f0; border-radius:16px; padding:22px">
+              <div class="overflow-hidden" style="border:2px solid #e2e8f0; border-radius:12px; margin-bottom:16px">
+                <img src="more-apps/odoo_employee_birthday.jpg" alt="Employee Birthday Tracker" style="width:100%; height:auto; display:block">
+              </div>
+              <h3 style="font-size:19px; font-weight:800; color:#0f172a; line-height:1.3; margin:0 0 6px; letter-spacing:-.01em">Employee Birthday Tracker</h3>
+              <div class="flex-grow-1" style="font-size:14.5px; color:#64748b; line-height:1.6; margin-bottom:14px">Track employee birthdays: Today, 3, 7, 15 days ahead — with monthly chart dashboard</div>
+              <div class="d-flex justify-content-between align-items-center" style="border-top:1px solid #e2e8f0; padding-top:12px">
+                <span style="font-size:14px; font-weight:800; color:#16a34a">Free<span style="color:#94a3b8; font-weight:600"></span></span>
+                <span style="font-size:14px; font-weight:800; color:#0ea5c6">View app →</span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <a href="https://apps.odoo.com/apps/modules/19.0/mrp_material_check" class="d-block h-100" style="text-decoration:none">
+            <div class="h-100 d-flex flex-column shadow-sm" style="background-color:#fff; border:2px solid #e2e8f0; border-radius:16px; padding:22px">
+              <div class="overflow-hidden" style="border:2px solid #e2e8f0; border-radius:12px; margin-bottom:16px">
+                <img src="more-apps/mrp_material_check.jpg" alt="MRP Material Check" style="width:100%; height:auto; display:block">
+              </div>
+              <h3 style="font-size:19px; font-weight:800; color:#0f172a; line-height:1.3; margin:0 0 6px; letter-spacing:-.01em">MRP Material Check</h3>
+              <div class="flex-grow-1" style="font-size:14.5px; color:#64748b; line-height:1.6; margin-bottom:14px">Block or warn before producing when components are insufficient — popup lists each shortage.</div>
+              <div class="d-flex justify-content-between align-items-center" style="border-top:1px solid #e2e8f0; padding-top:12px">
+                <span style="font-size:14px; font-weight:800; color:#16a34a">Free<span style="color:#94a3b8; font-weight:600"></span></span>
+                <span style="font-size:14px; font-weight:800; color:#0ea5c6">View app →</span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <a href="https://apps.odoo.com/apps/modules/19.0/product_completeness_tracker" class="d-block h-100" style="text-decoration:none">
+            <div class="h-100 d-flex flex-column shadow-sm" style="background-color:#fff; border:2px solid #e2e8f0; border-radius:16px; padding:22px">
+              <div class="overflow-hidden" style="border:2px solid #e2e8f0; border-radius:12px; margin-bottom:16px">
+                <img src="more-apps/product_completeness_tracker.jpg" alt="Product Completeness Tracker" style="width:100%; height:auto; display:block">
+              </div>
+              <h3 style="font-size:19px; font-weight:800; color:#0f172a; line-height:1.3; margin:0 0 6px; letter-spacing:-.01em">Product Completeness Tracker</h3>
+              <div class="flex-grow-1" style="font-size:14.5px; color:#64748b; line-height:1.6; margin-bottom:14px">Progress bar on product list showing data completeness — highlights missing image, description, price, and category.</div>
+              <div class="d-flex justify-content-between align-items-center" style="border-top:1px solid #e2e8f0; padding-top:12px">
+                <span style="font-size:14px; font-weight:800; color:#16a34a">Free<span style="color:#94a3b8; font-weight:600"></span></span>
+                <span style="font-size:14px; font-weight:800; color:#0ea5c6">View app →</span>
+              </div>
+            </div>
+          </a>
+        </div>
+  </div>
+  <div style="text-align:center; margin-top:8px">
+    <a href="https://apps.odoo.com/apps/modules/browse?author=SunMesa%20Labs" style="display:inline-block; background-color:#0b1220; color:#fff; padding:14px 34px; border-radius:50px; font-size:16px; font-weight:800; text-decoration:none">See all SunMesa Labs apps →</a>
+  </div>
+</div>
+<!-- SUNMESA-CROSS-SELL:END -->
 
 </body>
 </html>
